@@ -1,0 +1,90 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getSecureSecretNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "secureNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "setSecureSecretNumber",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/03_OwnerContract/OwnerContract.sol": "OwnerContract"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/03_OwnerContract/OwnerContract.sol": {
+			"keccak256": "0x471348e81adf0deb7dcb2ed233586e54d04d00b3a341b24df6728e85cee2d23a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://eb802709652741b0b4d67f6685956699f9ab0156f8a4586628456321e499b190",
+				"dweb:/ipfs/QmbHWYKY4SBApzZ44eCFBmKAjcsnnJV3r3MLNGrQ8omuds"
+			]
+		}
+	},
+	"version": 1
+}
