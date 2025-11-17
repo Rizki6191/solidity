@@ -7,15 +7,28 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "message",
+				"name": "getNumber",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "",
-						"type": "string"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "newNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "setNumber",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -32,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/01_HelloWorld/HelloWorld.sol": "HelloWorld"
+			"contracts/02_SimpleStorage/SimpleStorage.sol": "SimpleStorage"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -46,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/01_HelloWorld/HelloWorld.sol": {
-			"keccak256": "0x0161a379c8000c951b113398c0ec5efb2a19b8bd951434da565bcc8e6e3fe3a7",
+		"contracts/02_SimpleStorage/SimpleStorage.sol": {
+			"keccak256": "0xc6331c8d7e7a0a89f09c555b1e7ddcd64ff4c819b1befa16fc2276e94a5d5674",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://144075b6998c0434e8e4157ec727a2877ffd08439f91caeeb510fdfd7bdbf437",
-				"dweb:/ipfs/QmPnoT3MqHRigLwVnJCB8Xv7QDdvHPr6BCMDjddVgEqc2r"
+				"bzz-raw://8ccf096825db714b0fc5f563d36780bc284081304ab89c29a53e6ea40b44aac1",
+				"dweb:/ipfs/Qmf344qnav1eRo3bKpShs7VGrTDrVCXFi5n1UCwXEKb23C"
 			]
 		}
 	},

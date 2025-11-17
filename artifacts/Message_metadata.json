@@ -32,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/01_HelloWorld/HelloWorld.sol": "HelloWorld"
+			"contracts/01_HelloWorld/HelloWorld.sol": "Message"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
